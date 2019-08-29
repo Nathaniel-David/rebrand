@@ -357,7 +357,7 @@
 						</div>
 						<div class="col-lg-12 row px-3 pb-1">
 							<div class="col-lg-6">
-								<a class="button slide-vertical" data-splitting href="https://tailoredhealthandfitness.com">View Site</a>
+								<a class="button slide-vertical" data-splitting href="https://pixycam.com">View Site</a>
 							</div>
 							<div class="col-lg-6">
 								<button type="button" class="close mt-4 pt-3" data-dismiss="modal" aria-label="Close">
