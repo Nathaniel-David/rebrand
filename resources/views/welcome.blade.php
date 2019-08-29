@@ -40,7 +40,7 @@
                                 <div class="about_info">
                                     <h4>Full-Stack Web &amp; Software Developer, Otherwise known as a Semi-Colon Slingin Cowboy. <br>Based in New York City.</h4>
                                     <img class="zigzag" src="img/zigzag.svg" alt="">
-                                    <p class="about_desc">Software development and all of its possibilities are only limited by our imagination and ingenuity, so let's create something great together!</p>
+                                    <p class="about_desc">Software development and all of its possibilities are only limited by our imagination and ingenuity, so let's get creative and make something great together!</p>
                                     <!-- start social links -->
                                     <ul class="social_links">
                                         <li><a href="https://www.instagram.com/_nathanieldavid_/"><span class="ion-social-instagram-outline"></span></a></li>
@@ -275,11 +275,6 @@
 				  <div class="modal-dialog modal-lg">
 				    <div class="modal-content shadow mb-5 bg-light rounded-0">
 						<div id="tailoredCarousel" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#tailoredCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#tailoredCarousel" data-slide-to="1"></li>
-						    <li data-target="#tailoredCarousel" data-slide-to="2"></li>
-						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img class="d-block w-100" src="img/works/tailored.jpg" alt="Home Page">
@@ -324,11 +319,6 @@
 				  <div class="modal-dialog modal-lg">
 				    <div class="modal-content shadow mb-5 bg-light rounded-0">
 						<div id="pixycamCarousel" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#pixycamCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#pixycamCarousel" data-slide-to="1"></li>
-						    <li data-target="#pixycamCarousel" data-slide-to="2"></li>
-						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img class="d-block w-100" src="img/works/pixycam1.jpg" alt="Home Page">
@@ -373,11 +363,6 @@
 				  <div class="modal-dialog modal-lg">
 				    <div class="modal-content shadow mb-5 bg-light rounded-0">
 						<div id="omCarousel" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#omCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#omCarousel" data-slide-to="1"></li>
-						    <li data-target="#omCarousel" data-slide-to="2"></li>
-						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img class="d-block w-100" src="img/works/om.jpg" alt="Home Page">
@@ -399,7 +384,7 @@
 						  </a>
 						</div>
 						<div class="col-lg-12 px-3 pt-3">
-							<h4><a href="https://tailoredhealthandfitness.com">Institution Of OM - One Taste</a></h4>
+							<h4><a href="https://instituteofom.com">Institution Of OM - One Taste</a></h4>
 							<p class="text-muted">Meditation & Wellness</p>
 							<hr>
 							<p>The Institute of OM helps people to increase health, happiness and connection through scientifically-proven methods combining mindfulness and sexuality. </p>
@@ -422,11 +407,6 @@
 				  <div class="modal-dialog modal-lg">
 				    <div class="modal-content shadow mb-5 bg-light rounded-0">
 						<div id="ascensionCarousel" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#ascensionCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#ascensionCarousel" data-slide-to="1"></li>
-						    <li data-target="#ascensionCarousel" data-slide-to="2"></li>
-						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img class="d-block w-100" src="img/works/ascension.jpg" alt="Home Page">
@@ -454,14 +434,14 @@
 						  </a>
 						</div>
 						<div class="col-lg-12 px-3 pt-3">
-							<h4><a href="https://tailoredhealthandfitness.com">Ascension Dental Partners - Now Membersy</a></h4>
+							<h4><a href="https://affiliate.ascensiondental.com">Ascension Dental Partners - Now Membersy</a></h4>
 							<p class="text-muted">Dental Plans</p>
 							<hr>
 							<p>Membersy provides dental practices with thoughtfully designed membership plans to make dental care more approachable.</p>
 						</div>
 						<div class="col-lg-12 row px-3 pb-1">
 							<div class="col-lg-6">
-								<a class="button slide-vertical" data-splitting href="https://affiliate.ascensiondental.com/">View Site</a>
+								<a class="button slide-vertical" data-splitting href="https://myloyaldentalplan.com/">View Site</a>
 							</div>
 							<div class="col-lg-6">
 								<button type="button" class="close mt-4 pt-3" data-dismiss="modal" aria-label="Close">
