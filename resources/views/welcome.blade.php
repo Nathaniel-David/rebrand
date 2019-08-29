@@ -10,7 +10,7 @@
                         <div class="col text-white cd-intro">
                             <h5 class="title-slide-in" data-splitting>Oh Hello, I'm</h5>
                             <h1 class="title-slide-in" data-splitting>Nathaniel David Medrano</h1>
-                            <h4 class="title-slide-in" data-splitting>Full-Stack Web &amp; Software Developer</h4>
+                            <h4 class="title-slide-in" data-splitting>Freelance Web Developer</h4>
                         </div>
                     </div>
                 </div>
