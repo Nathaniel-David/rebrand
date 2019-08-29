@@ -1316,7 +1316,11 @@ footer p span {
     background-color: white;
 }
 
-
+#resume {
+    font-size: 17px;
+    font-weight: 400;
+    vertical-align: text-top;
+}
 
 
 

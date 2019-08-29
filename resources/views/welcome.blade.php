@@ -46,6 +46,7 @@
                                         <li><a href="https://www.instagram.com/_nathanieldavid_/"><span class="ion-social-instagram-outline"></span></a></li>
                                         <li><a href="https://www.facebook.com/nathaniel.david.medrano"><span class="ion-social-facebook"></span></a></li>
                                         <li><a href="https://www.linkedin.com/in/nathanielmedrano/"><span class="ion-social-linkedin"></span></a></li>
+                                        <li><a href="/resume"><span class="ion-ios-cloud-download-outline"></span> <span id="resume">Resume</span></a></li>
                                     </ul>
                                     <!-- end social links -->
                                 </div>

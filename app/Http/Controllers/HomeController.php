@@ -66,4 +66,25 @@ class HomeController extends Controller
 
     }
 
+    public function resume()
+    {
+
+        //PDF file is stored under project/public/download/info.pdf
+
+        $file= public_path(). "/download/nathanielm.pdf";
+
+     
+
+        $headers = [
+
+          'Content-Type' => 'application/pdf',
+
+       ];
+
+         
+
+        return response()->download($file, 'nathanielm.pdf', $headers);
+
+    }
+
 }
