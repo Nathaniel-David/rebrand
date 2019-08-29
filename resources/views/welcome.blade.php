@@ -351,7 +351,7 @@
 						</div>
 						<div class="col-lg-12 px-3 pt-3">
 							<h4><a href="https://pixycam.com/">PixyCam - CharmedLabs</a></h4>
-							<p class="text-muted">Health & Wellness</p>
+							<p class="text-muted">Technology & Software</p>
 							<hr>
 							<p>Pixy got its start in 2013 as part of a successful Kickstarter campaign, and as a partnership between Charmed Labs and CMU.</p>
 						</div>
