@@ -233,7 +233,7 @@
                             </div>
                             <div class="contact_item">
                                 <h5>Email</h5>
-                                <p>me@nathaniel-david.tech</p>
+                                <p><a href="mailto:me@nathaniel-david.com">me@nathaniel-david.com</a></p>
                             </div>
                         </div>
                         <!-- end contact info ( email - phone) -->

@@ -71,7 +71,7 @@ class HomeController extends Controller
 
         //PDF file is stored under project/public/download/info.pdf
 
-        $file= public_path(). "/download/nathanielm.pdf";
+        $file= public_path(). "/download/nathaniel_resume.pdf";
 
      
 
@@ -83,7 +83,7 @@ class HomeController extends Controller
 
          
 
-        return response()->download($file, 'nathanielm.pdf', $headers);
+        return response()->download($file, 'nathaniel_resume.pdf', $headers);
 
     }
 
