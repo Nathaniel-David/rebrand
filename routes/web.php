@@ -17,8 +17,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('apps', 'AppController');
+
+Route::resource('blog', 'BlogController');
+
+Route::get('/welcome', 'HomeController@index');
 
 Route::post('/contact', 'HomeController@contact');
 
 Route::get('/resume', 'HomeController@resume');
+
+Route::post('/generateIpsum','AppController@generateIpsum');
+

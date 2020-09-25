@@ -580,6 +580,70 @@ header {
 	margin-bottom: 100px;
 }
 
+.apps_single_item {
+    padding: 35px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #222;
+    margin-top: 30px;
+}
+
+.apps_single_item i {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.apps_single_item h6 {
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    overflow: hidden;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.apps_single_item h6::after {
+    position: absolute;
+    content: attr(data-hover);
+    height: 100%;
+    width: 0;
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+
+.apps_single_item:hover h6::after {
+    width: 100%;
+    transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -webkit-transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -moz-transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -ms-transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.apps_single_item p {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.apps_single_item p i {
+    color: #ccc;
+    font-size: 18px;
+}
+
+/**/
 .service_single_item {
 	padding: 35px 20px;
 	position: relative;

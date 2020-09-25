@@ -1,8 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
+use App\Mail\ContactMail;
 
 class HomeController extends Controller
 {
@@ -19,7 +22,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('welcome');
     }
 
     public function contact(Request $request)
@@ -38,23 +41,13 @@ class HomeController extends Controller
             exit;
         }
 
-        // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
-        $recipient = "me@nathaniel-david.tech";
-
-        // Set the email subject.
-        $subject = "New Message from $name";
-
         // Build the email content.
-        $email_content = "Name: $name\n";
-        $email_content = "Email: $email\n\n";
-        $email_content = "Message:\n$message\n";
-
-        // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        $data = [];
+        $data['name'] = $name;
+        $data['message'] = $message;
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
+        if (Mail::to('me@nathaniel-david.com')->send(new ContactMail($data))) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thanks for reaching out! I'll be contacting you soon! I look forward to hearing about your project!";

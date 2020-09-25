@@ -25,6 +25,9 @@
     <link href="{{ URL::asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/main.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/responsive.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('css/custom.css') }}" rel="stylesheet" type="text/css">
+    <script src="{{ URL::asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ URL::asset('js/custom.js') }}"></script>
 </head>
 
 <body id="top" data-spy="scroll" data-target="#menu_items">
@@ -52,22 +55,22 @@
                     <div class="col-md-7 col-4">
                         <ul id="menu_items" class="menu_items">
                             <li class="nav-item">
-                                <a href="/apps" class="active menu_item nav-link slide-horizontal appsBtn" data-splitting>Apps</a>
+                                <a href="/apps" id="apps" class="menu_item nav-link slide-horizontal appsBtn" data-splitting>Apps</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/blog" class="menu_item nav-link slide-horizontal blogBtn" data-splitting>Blog</a>
+                                <a href="/blog" id="blog" class="menu_item nav-link slide-horizontal blogBtn" data-splitting>Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#service" class="menu_item nav-link slide-horizontal" data-splitting>Services</a>
+                                <a href="/#service" id="service" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#works" class="menu_item nav-link slide-horizontal" data-splitting>Portfolio</a>
+                                <a href="/#works" id="works" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#testimonial" class="menu_item nav-link slide-horizontal" data-splitting>Testimonials</a>
+                                <a href="/#testimonial" id="testimonial" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#contact" class="menu_item nav-link slide-horizontal" data-splitting>Contact</a>
+                                <a href="/#contact" id="contact" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Contact</a>
                             </li>
                         </ul>
                         <!-- responsive menu btn -->
@@ -84,9 +87,6 @@
                 <!-- end contact wrapper -->
                 <!-- start footer wrapper -->
                 <footer>
-                    <a href="#top" class="go_top">
-                        <i class="ion-ios-arrow-thin-up"></i>
-                    </a>
                     <!-- start social links -->
                     <ul class="social_links">
                         <li><a href="https://www.instagram.com/_nathanieldavid_/"><span class="ion-social-instagram-outline"></span></a></li>
@@ -103,8 +103,6 @@
 
 
     <!-- ========  All JS Here ========  -->
-    <script src="{{ URL::asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ URL::asset('js/custom.js') }}"></script>
     <script src="{{ URL::asset('js/ajax-mail.js') }}"></script>
     <script src="{{ URL::asset('js/plugins.js') }}"></script>
     <!-- particles.min.js (only for index-2.html page) -->
