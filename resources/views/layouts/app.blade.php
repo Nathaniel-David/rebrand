@@ -55,9 +55,6 @@
                                 <a href="/apps" class="active menu_item nav-link slide-horizontal appsBtn" data-splitting>Apps</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/blog" class="menu_item nav-link slide-horizontal blogBtn" data-splitting>Blog</a>
-                            </li>
-                            <li class="nav-item">
                                 <a href="#service" class="menu_item nav-link slide-horizontal" data-splitting>Services</a>
                             </li>
                             <li class="nav-item">

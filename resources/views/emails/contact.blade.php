@@ -1,9 +1,9 @@
 <html>
 <head></head>
 <body>
-<p>{{ $data['name'] }}</p>
+<p>Name: {{ $name }} | Email: {{ $email }}</p>
 <br>
-<p>{{ $data['message'] }}</p>
+<p>{{ $test }}</p>
 <br>
 </body>
 </html>

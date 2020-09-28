@@ -20,6 +20,9 @@ class ContactMail extends Mailable
     {
         $this->data = $data;
         $this->name = $this->data['name'];
+        $this->email = $this->data['email'];
+        $this->message = $this->data['message'];
+        $this->test = $this->data['message'];
         $this->subject = "New Contact from " . $this->name;
     }
 
@@ -30,11 +33,17 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from("me@nathaniel-david.com")
+        $log = public_path() . "/download/log.txt";
+        file_put_contents($log, $this->message);
+
+        return $this->from("me@nathaniel-david.tech")
                     ->subject($this->subject)
                     ->view('emails.contact')
                     ->with([
-                        'data' => $this->data
+                        'name' => $this->name,
+                        'email' => $this->email,
+                        'test' => $this->test,
+                        'message' => $this->message,
                     ]);
     }
 }

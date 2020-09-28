@@ -29,9 +29,8 @@ class HomeController extends Controller
     {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($request->name));
-                $name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($request->email), FILTER_SANITIZE_EMAIL);
-        $message = trim($request->message);
+        $message = htmlentities($request->message); 
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -44,19 +43,24 @@ class HomeController extends Controller
         // Build the email content.
         $data = [];
         $data['name'] = $name;
+        $data['email'] = $email;
         $data['message'] = $message;
 
-        // Send the email.
-        if (Mail::to('me@nathaniel-david.com')->send(new ContactMail($data))) {
+        try {
+
+            Mail::to('me@nathaniel-david.tech')->send(new ContactMail($data));
+
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thanks for reaching out! I'll be contacting you soon! I look forward to hearing about your project!";
-        } else {
+
+        } catch (Exception $e) {
+
             // Set a 500 (internal server error) response code.
             http_response_code(500);
             echo "Oops! Something went wrong and we couldn't send your message.";
+            
         }
-
     }
 
     public function resume()
