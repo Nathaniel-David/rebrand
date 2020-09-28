@@ -52,7 +52,7 @@
                     <div class="col-md-7 col-4">
                         <ul id="menu_items" class="menu_items">
                             <li class="nav-item">
-                                <a href="/apps" class="active menu_item nav-link slide-horizontal appsBtn" data-splitting>Apps</a>
+                                <a href="/apps" class="menu_item nav-link slide-horizontal appsBtn" data-splitting>Apps</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#service" class="menu_item nav-link slide-horizontal" data-splitting>Services</a>
