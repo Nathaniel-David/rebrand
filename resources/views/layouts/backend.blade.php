@@ -64,7 +64,7 @@
                                 <a href="/#works" id="works" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#testimonial" id="testimonial" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Testimonials</a>
+                                <a href="/#testimonial" id="testimonial" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Reviews</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/#contact" id="contact" class="menu_item nav-link slide-horizontal sectionBtn" data-splitting>Contact</a>
