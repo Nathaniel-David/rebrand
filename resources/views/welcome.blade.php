@@ -189,7 +189,7 @@
                         <div class="col-md-8">
                             <!-- section title -->
                             <div class="text-center">
-                                <h2 class="section_title">Testimonials</h2>
+                                <h2 class="section_title">Reviews</h2>
                             </div>
                             <div class="owl-carousel testimonial_slider">
                                 <div class="testimonial_single_item">
